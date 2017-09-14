@@ -1,5 +1,5 @@
 const express = require('express')
-const exec = require('child-process').exec
+const exec = require('child_process').exec
 
 const config = require('./config.json')
 const app = express()
