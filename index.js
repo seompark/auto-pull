@@ -7,7 +7,7 @@ const app = express()
 app.get('/', (req, res) => {
   if (req.query.passwd !== config.passwd) return res.sendStatus(400)
   config.path.forEach((v) => {
-    exec(`cd ${v} && git pull`, (err, stdout, stderr) => {
+    exec(`git pull`, { cwd: v }, (err, stdout, stderr) => {
       if (err) console.log(err)
       if (stdout) console.log(stdout)
       if (stderr) console.log(stderr)
