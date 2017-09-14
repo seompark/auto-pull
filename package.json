@@ -1,0 +1,25 @@
+{
+  "name": "auto-pull",
+  "version": "1.0.0",
+  "description": "auto pull",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1p4ca/auto-pull.git"
+  },
+  "keywords": [
+    "wow"
+  ],
+  "author": "a1p4ca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a1p4ca/auto-pull/issues"
+  },
+  "homepage": "https://github.com/a1p4ca/auto-pull#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
